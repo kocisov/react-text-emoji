@@ -1,0 +1,30 @@
+{
+  "name": "react-text-emoji",
+  "description": "Call emojis/emoticons (as image) with text in React",
+  "version": "1.0.0",
+  "author": "kocisov <kocis.34@gmail.com>",
+  "browser": "dist/react-text-emoji.umd.js",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^0.67.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "main": "dist/react-text-emoji.cjs.js",
+  "module": "dist/react-text-emoji.esm.js",
+  "private": false,
+  "repository": "https://github.com/kocisov/react-text-emoji",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "yarn build"
+  }
+}
