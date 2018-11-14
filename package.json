@@ -1,7 +1,7 @@
 {
   "name": "react-text-emoji",
   "description": "Call emojis/emoticons (as image) with text in React",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "kocisov <kocis.34@gmail.com>",
   "browser": "dist/react-text-emoji.umd.js",
   "devDependencies": {
